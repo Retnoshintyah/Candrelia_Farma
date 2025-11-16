@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <img className="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-105" src={product.imageUrl} alt={product.name} />
         </div>
         <div className="p-4 flex flex-col flex-grow">
-          <h3 className="text-lg font-semibold text-gray-800 flex-grow">{product.name}</h3>
+          <h3 className="text-lg font-semibold text-gray-800 uppercase flex-grow">{product.name}</h3>
           <p className="text-sm text-gray-500 mt-1">{product.type}</p>
           <p className="text-md font-bold text-teal-600 mt-2">{product.price}</p>
         </div>

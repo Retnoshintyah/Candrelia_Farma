@@ -8,7 +8,7 @@ export const products: Product[] = [
 Amoxilab adalah sediaan dry syrup yang mengandung Amoksisilin, antibiotik golongan penisilin yang digunakan untuk mengobati infeksi bakteri. Amoxilab digunakan untuk mengatasi infeksi pada saluran pernapasan, saluran kemih, kulit, dan infeksi lainnya yang disebabkan oleh bakteri yang sensitif terhadap amoksisilin.
 
 Komposisi:
-Setiap 5 ml larutan sirup SOLIP® mengandung 125 mg Amoksisilin.
+Setiap 5 ml larutan sirup Amoxilab mengandung 125 mg Amoksisilin.
 
 Dosis dan Cara Pemakaian:
 Anak-anak (2-6 tahun): 2,5 ml, 2-3 kali sehari
@@ -265,11 +265,11 @@ Jangan dibekukan
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 26, name: 'REDUX', type: 'Ampul', imageUrl: './product/tradex.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
-REDUX® adalah sediaan injeksi intravena yang mengandung Tranexamic Acid, obat hemostatik yang digunakan untuk mengatasi perdarahan akut dan mengurangi risiko perdarahan yang berlebihan.
+  { id: 26, name: 'Tradex', type: 'Ampul', imageUrl: './product/tradex.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
+Tradex adalah sediaan injeksi intravena yang mengandung Tranexamic Acid, obat hemostatik yang digunakan untuk mengatasi perdarahan akut dan mengurangi risiko perdarahan yang berlebihan.
 
 Komposisi:
-Setiap 5 ml injeksi REDUX® mengandung 500 mg Tranexamic Acid.
+Setiap 5 ml injeksi Tradex mengandung 500 mg Tranexamic Acid.
 
 Dosis dan Cara Pemakaian:
 Dewasa:
@@ -388,11 +388,11 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 31, name: 'Bronchonel', type: 'Sirup', imageUrl: './product/bromisin.jpeg', price: 'Rp 23.000', description: `Deskripsi Produk:
-Bronchonel® adalah sediaan sirup yang mengandung Ambroxol Hydrochloride, suatu agen mukolitik dan sekretolitik yang bekerja dengan cara mengencerkan dan memecah mukus (dahak) di saluran pernapasan, sehingga memudahkan pengeluarannya dan membantu memperbaiki fungsi pernapasan. Obat ini efektif digunakan untuk meringankan batuk produktif akibat gangguan saluran pernapasan seperti bronkitis akut maupun kronis, pneumonia, asma bronkial, serta penyakit paru obstruktif kronik (PPOK).
+  { id: 31, name: 'Bromisin', type: 'Sirup', imageUrl: './product/bromisin.jpeg', price: 'Rp 23.000', description: `Deskripsi Produk:
+Bromisin adalah sediaan sirup yang mengandung Bromhexine HCl, suatu agen mukolitik dan sekretolitik yang bekerja dengan cara mengencerkan dan memecah mukus (dahak) di saluran pernapasan, sehingga memudahkan pengeluarannya dan membantu memperbaiki fungsi pernapasan. Obat ini efektif digunakan untuk meringankan batuk produktif akibat gangguan saluran pernapasan seperti bronkitis akut maupun kronis, pneumonia, asma bronkial, serta penyakit paru obstruktif kronik (PPOK).
 
 Komposisi:
-Setiap 5 mL sirup Bronchonel® mengandung 15 mg Ambroxol Hydrochloride.
+Setiap 5 mL sirup Bromisin mengandung 15 mg Bromhexine HCl.
 
 Dosis dan Cara Pemakaian:
 Anak-anak usia 2–6 tahun: 2,5 mL, 2–3 kali sehari.
@@ -400,7 +400,7 @@ Anak-anak usia 6–12 tahun: 5 mL, 2–3 kali sehari.
 Dewasa dan anak usia di atas 12 tahun: 10 mL, 2–3 kali sehari.
 
 Golongan:
-Bronchonel® termasuk dalam golongan obat bebas terbatas, sehingga penggunaannya harus sesuai dengan petunjuk pada kemasan atau anjuran dokter. Penggunaan pada wanita hamil dan menyusui hanya boleh dilakukan bila dianggap sangat diperlukan dan di bawah pengawasan tenaga medis.
+Bromisin termasuk dalam golongan obat bebas terbatas, sehingga penggunaannya harus sesuai dengan petunjuk pada kemasan atau anjuran dokter. Penggunaan pada wanita hamil dan menyusui hanya boleh dilakukan bila dianggap sangat diperlukan dan di bawah pengawasan tenaga medis.
 
 Kemasan:
 Produk ini dikemas dalam botol sirup 100 mL dan 120 mL dengan rasa frambus manis untuk meningkatkan kepatuhan pasien anak.
@@ -435,11 +435,11 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 33, name: 'CEXIL', type: 'Dry Sirup', imageUrl: './product/cefidex.jpeg', price: 'Rp 43.000', description: `Deskripsi Produk:
-CEXIL® adalah sediaan dry syrup yang mengandung Cefixime Trihydrate, yaitu antibiotik golongan sefalosporin generasi ketiga yang digunakan untuk mengobati infeksi bakteri pada saluran pernapasan, saluran kemih, telinga, dan infeksi lainnya.
+  { id: 33, name: 'Cefidex', type: 'Dry Sirup', imageUrl: './product/cefidex.jpeg', price: 'Rp 43.000', description: `Deskripsi Produk:
+Cefidex adalah sediaan dry syrup yang mengandung Cefixime Trihydrate, yaitu antibiotik golongan sefalosporin generasi ketiga yang digunakan untuk mengobati infeksi bakteri pada saluran pernapasan, saluran kemih, telinga, dan infeksi lainnya.
 
 Komposisi:
-Setiap 5 ml larutan sirup CEXIL® mengandung 100 mg Cefixime Trihydrate.
+Setiap 5 ml larutan sirup Cefidex mengandung 100 mg Cefixime Trihydrate.
 
 Dosis dan Cara Pemakaian:
 Anak-anak (6 bulan - 12 tahun): 4 mg/kg berat badan per hari
@@ -965,8 +965,8 @@ Tube 3,5 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-25°C), terlindung dari cahaya dan kelembapan. Jangan gunakan setelah tanggal kedaluwarsa yang tertera pada kemasan.` },
-  { id: 55, name: 'FATAN', type: 'Salep Mata', imageUrl: './product/Gentasol01salep.jpeg', price: 'Rp 22.000', description: `Deskripsi Produk:
-FATAN® Gentamicin Sulfate 0,1% Ointment adalah salep antibiotik topikal yang mengandung gentamicin sulfate, yaitu antibiotik aminoglikosida yang efektif dalam mengobati infeksi kulit yang disebabkan oleh bakteri. Salep ini digunakan untuk mengobati infeksi kulit seperti impetigo, infeksi luka, dan infeksi kulit lainnya yang disebabkan oleh bakteri sensitif terhadap gentamicin.
+  { id: 55, name: 'Gentasol', type: 'Salep Mata', imageUrl: './product/Gentasol01salep.jpeg', price: 'Rp 22.000', description: `Deskripsi Produk:
+ Gentamicin Sulfate 0,1% Ointment adalah salep antibiotik topikal yang mengandung gentamicin sulfate, yaitu antibiotik aminoglikosida yang efektif dalam mengobati infeksi kulit yang disebabkan oleh bakteri. Salep ini digunakan untuk mengobati infeksi kulit seperti impetigo, infeksi luka, dan infeksi kulit lainnya yang disebabkan oleh bakteri sensitif terhadap gentamicin.
 
 Komposisi:
 Setiap gram salep mengandung Gentamicin Sulfate 1 mg (0,1%)
@@ -1005,14 +1005,14 @@ Tube 3,5 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-25°C), terlindung dari cahaya dan kelembapan. Jangan gunakan setelah tanggal kedaluwarsa yang tertera pada kemasan.` },
-  { id: 57, name: 'BUFUS', type: 'Cream', imageUrl: './product/skinfussalepcream.jpeg', price: 'Rp 45.000', description: `Deskripsi Produk: 
-BUFUS® adalah krim topikal yang mengandung Fusidic Acid 2%, antibiotik yang efektif untuk mengobati infeksi kulit yang disebabkan oleh bakteri, terutama Staphylococcus aureus.
+  { id: 57, name: 'Skinfus', type: 'Cream', imageUrl: './product/skinfussalepcream.jpeg', price: 'Rp 45.000', description: `Deskripsi Produk: 
+Skinfus adalah krim topikal yang mengandung Fusidic Acid 2%, antibiotik yang efektif untuk mengobati infeksi kulit yang disebabkan oleh bakteri, terutama Staphylococcus aureus.
 
 Komposisi: 
 Setiap gram krim mengandung 20 mg Fusidic Acid.
 
 Dosis dan Cara Pemakaian:
-Oleskan krim BUFUS® pada area kulit yang terinfeksi sebanyak 2-3 kali sehari.
+Oleskan krim Skinfus pada area kulit yang terinfeksi sebanyak 2-3 kali sehari.
 
 Golongan: Obat Keras (memerlukan resep dokter).
 

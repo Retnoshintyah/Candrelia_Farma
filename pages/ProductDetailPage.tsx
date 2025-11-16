@@ -19,7 +19,7 @@ const ProductDetailPage: React.FC = () => {
     }
 
     const whatsappMessage = `Halo, saya ingin bertanya tentang produk ${product.name}.`;
-    const whatsappUrl = `https://wa.me/6281271894905?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/6282289942035?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
         <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
@@ -46,7 +46,7 @@ const ProductDetailPage: React.FC = () => {
                         rel="noopener noreferrer"
                         className="mt-8 block w-full text-center bg-teal-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-teal-700 transition-all shadow-md"
                     >
-                        Hubungi Penjualan
+                        Hubungi Kami
                     </a>
                 </div>
             </div>

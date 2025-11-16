@@ -1,11 +1,11 @@
 import type { Product } from '../types';
 
 export const products: Product[] = [
-  { id: 1, name: 'Mupiheal', type: 'Ointment', imageUrl: './product/mupiheal.jpeg', price: 'Rp 65.000', description: 'Mupiheal® adalah salep antibiotik topikal yang mengandung Mupirocin 2%, efektif untuk pengobatan infeksi kulit primer dan sekunder seperti impeto, folikulitis, dan luka terinfeksi ringan. Salep ini bekerja dengan menghambat sintesis protein bakteri.' },
-  { id: 2, name: 'Esomelab', type: 'Kapsul', imageUrl: './product/esomelab.jpeg', price: 'Rp 120.000', description: 'Esomelab® adalah obat golongan penghambat pompa proton (PPI) yang mengandung Esomeprazole. Obat ini bekerja dengan mengurangi produksi asam lambung secara efektif, sehingga digunakan untuk pengobatan penyakit refluks gastroesofagus (GERD), tukak lambung, dan sindrom Zollinger-Ellison.' },
-  { id: 3, name: 'Bactimox', type: 'Suspensi', imageUrl: './product/bactimox.jpeg', price: 'Rp 75.000', description: 'Bactimox® Suspensi adalah antibiotik kombinasi yang mengandung Amoxicillin dan Clavulanic Acid, dirancang khusus untuk anak-anak. Kombinasi ini efektif melawan berbagai bakteri, termasuk yang resisten terhadap Amoxicillin, sehingga cocok untuk infeksi saluran pernapasan, infeksi telinga tengah (otitis media), dan infeksi saluran kemih.' },
-  { id: 4, name: 'SOLIP', type: 'Dry Sirup', imageUrl: './product/amoxilab.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
-SOLIP® adalah sediaan dry syrup yang mengandung Amoksisilin, antibiotik golongan penisilin yang digunakan untuk mengobati infeksi bakteri. SOLIP® digunakan untuk mengatasi infeksi pada saluran pernapasan, saluran kemih, kulit, dan infeksi lainnya yang disebabkan oleh bakteri yang sensitif terhadap amoksisilin.
+  { id: 1, name: 'Mupiheal', type: 'Ointment', imageUrl: './product/mupiheal.jpeg', price: 'Rp 30.000', description: 'Mupiheal® adalah salep antibiotik topikal yang mengandung Mupirocin 2%, efektif untuk pengobatan infeksi kulit primer dan sekunder seperti impeto, folikulitis, dan luka terinfeksi ringan. Salep ini bekerja dengan menghambat sintesis protein bakteri.' },
+  { id: 2, name: 'Esomelab', type: 'Kapsul', imageUrl: './product/esomelab.jpeg', price: 'Rp 50.000', description: 'Esomelab® adalah obat golongan penghambat pompa proton (PPI) yang mengandung Esomeprazole. Obat ini bekerja dengan mengurangi produksi asam lambung secara efektif, sehingga digunakan untuk pengobatan penyakit refluks gastroesofagus (GERD), tukak lambung, dan sindrom Zollinger-Ellison.' },
+  { id: 3, name: 'Bactimox', type: 'Suspensi', imageUrl: './product/bactimox.jpeg', price: 'Rp 35.000', description: 'Bactimox® Suspensi adalah antibiotik kombinasi yang mengandung Amoxicillin dan Clavulanic Acid, dirancang khusus untuk anak-anak. Kombinasi ini efektif melawan berbagai bakteri, termasuk yang resisten terhadap Amoxicillin, sehingga cocok untuk infeksi saluran pernapasan, infeksi telinga tengah (otitis media), dan infeksi saluran kemih.' },
+  { id: 4, name: 'Amoxilab', type: 'Dry Sirup', imageUrl: './product/amoxilab.jpeg', price: 'Rp 35.000', description: `Deskripsi Produk:
+Amoxilab adalah sediaan dry syrup yang mengandung Amoksisilin, antibiotik golongan penisilin yang digunakan untuk mengobati infeksi bakteri. Amoxilab digunakan untuk mengatasi infeksi pada saluran pernapasan, saluran kemih, kulit, dan infeksi lainnya yang disebabkan oleh bakteri yang sensitif terhadap amoksisilin.
 
 Komposisi:
 Setiap 5 ml larutan sirup SOLIP® mengandung 125 mg Amoksisilin.
@@ -28,16 +28,16 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 5, name: 'Aspartin S.C.', type: 'Injeksi', imageUrl: './product/aspartinsc.jpeg', price: 'Rp 250.000', description: 'Aspartin S.C.® adalah larutan injeksi steril yang mengandung Insulin Aspart, analog insulin manusia kerja sangat cepat. Digunakan untuk mengontrol hiperglikemia pada pasien dewasa dan anak-anak dengan diabetes melitus. Aspartin S.C.® mulai bekerja lebih cepat dan memiliki durasi kerja lebih pendek dibandingkan insulin manusia biasa.' },
-  { id: 6, name: 'Zincc', type: 'Suplemen', imageUrl: './product/zincc.jpeg', price: 'Rp 45.000', description: 'Zincc® adalah suplemen tablet yang mengandung Zinc Picolinate untuk penyerapan optimal. Zinc merupakan mineral esensial yang berperan penting dalam menjaga fungsi sistem kekebalan tubuh, mendukung kesehatan kulit dan rambut, serta mempercepat penyembuhan luka.' },
-  { id: 7, name: 'Ferrofol', type: 'Tablet kunyah', imageUrl: './product/ferrofol2.jpeg', price: 'Rp 35.000', description: 'Ferrofol® adalah tablet kunyah dengan rasa cokelat yang lezat, mengandung kombinasi Iron (III) Polymaltose Complex dan Asam Folat. Suplemen ini dirancang untuk mencegah dan mengobati anemia defisiensi zat besi dan asam folat, khususnya pada masa kehamilan, menyusui, dan masa pertumbuhan.' },
-  { id: 8, name: 'Atoricap', type: 'Salut film', imageUrl: './product/atoricap.jpeg', price: 'Rp 180.000', description: 'Atoricap® adalah tablet salut selaput yang mengandung Atorvastatin Calcium, obat golongan statin yang efektif menurunkan kadar kolesterol total, LDL, dan trigliserida, serta meningkatkan HDL. Obat ini digunakan sebagai tambahan terapi diet untuk mengurangi risiko penyakit kardiovaskular.' },
-  { id: 9, name: 'Otoflox', type: 'Tetes telinga', imageUrl: './product/otoflox.jpeg', price: 'Rp 55.000', description: 'Otoflox® adalah larutan tetes telinga steril yang mengandung Ofloxacin 0.3%, antibiotik golongan fluoroquinolone dengan spektrum luas. Obat ini efektif untuk pengobatan otitis eksterna (infeksi liang telinga luar) dan otitis media kronis supuratif yang disebabkan oleh bakteri yang rentan.' },
-  { id: 10, name: 'OXYBEL', type: 'Nasal Spray', imageUrl: './product/xylometazoline.jpeg', price: 'Rp 48.000', description: `Deskripsi Produk:
-OXYBEL® adalah semprotan hidung yang mengandung Oxymetazoline 0,05%. OXYBEL® efektif untuk meredakan hidung tersumbat akibat pilek, sinusitis, atau alergi.
+  { id: 5, name: 'Aspartin S.C.', type: 'Injeksi', imageUrl: './product/aspartinsc.jpeg', price: 'Rp 60.000', description: 'Aspartin S.C.® adalah larutan injeksi steril yang mengandung Insulin Aspart, analog insulin manusia kerja sangat cepat. Digunakan untuk mengontrol hiperglikemia pada pasien dewasa dan anak-anak dengan diabetes melitus. Aspartin S.C.® mulai bekerja lebih cepat dan memiliki durasi kerja lebih pendek dibandingkan insulin manusia biasa.' },
+  { id: 6, name: 'Zincc', type: 'Suplemen', imageUrl: './product/zincc.jpeg', price: 'Rp 20.000', description: 'Zincc® adalah suplemen tablet yang mengandung Zinc Picolinate untuk penyerapan optimal. Zinc merupakan mineral esensial yang berperan penting dalam menjaga fungsi sistem kekebalan tubuh, mendukung kesehatan kulit dan rambut, serta mempercepat penyembuhan luka.' },
+  { id: 7, name: 'Ferrofol', type: 'Tablet kunyah', imageUrl: './product/ferrofol2.jpeg', price: 'Rp 20.000', description: 'Ferrofol® adalah tablet kunyah dengan rasa cokelat yang lezat, mengandung kombinasi Iron (III) Polymaltose Complex dan Asam Folat. Suplemen ini dirancang untuk mencegah dan mengobati anemia defisiensi zat besi dan asam folat, khususnya pada masa kehamilan, menyusui, dan masa pertumbuhan.' },
+  { id: 8, name: 'Atoricap', type: 'Salut film', imageUrl: './product/atoricap.jpeg', price: 'Rp 30.000', description: 'Atoricap® adalah tablet salut selaput yang mengandung Atorvastatin Calcium, obat golongan statin yang efektif menurunkan kadar kolesterol total, LDL, dan trigliserida, serta meningkatkan HDL. Obat ini digunakan sebagai tambahan terapi diet untuk mengurangi risiko penyakit kardiovaskular.' },
+  { id: 9, name: 'Otoflox', type: 'Tetes telinga', imageUrl: './product/otoflox.jpeg', price: 'Rp 35.000', description: 'Otoflox® adalah larutan tetes telinga steril yang mengandung Ofloxacin 0.3%, antibiotik golongan fluoroquinolone dengan spektrum luas. Obat ini efektif untuk pengobatan otitis eksterna (infeksi liang telinga luar) dan otitis media kronis supuratif yang disebabkan oleh bakteri yang rentan.' },
+  { id: 10, name: 'Xylometazoline', type: 'Nasal Spray', imageUrl: './product/xylometazoline.jpeg', price: 'Rp 30.000', description: `Deskripsi Produk:
+Xylometazoline adalah semprotan hidung yang mengandung 0,05%. Xylometazoline efektif untuk meredakan hidung tersumbat akibat pilek, sinusitis, atau alergi.
 
 Komposisi:
-Setiap 1 ml OXYBEL® mengandung 0,5 mg Oxymetazoline (0,05%).
+Setiap 1 ml mengandung 0,5 mg Xylometazoline (0,05%).
 
 Dosis dan Cara Pemakaian:
 Dewasa dan Anak-anak (di atas 6 tahun):
@@ -59,10 +59,10 @@ Simpan pada suhu 15-25°C, terlindung dari cahaya langsung. Pastikan tutup botol
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 11, name: 'Aminotran', type: 'Injeksi', imageUrl: './product/aminotran.jpeg', price: 'Rp 310.000', description: 'Aminotran® adalah larutan injeksi yang mengandung Asam Traneksamat, agen antifibrinolitik yang bekerja dengan menghambat pemecahan fibrin. Obat ini digunakan untuk mencegah dan mengobati perdarahan yang disebabkan oleh fibrinolisis berlebih, seperti pada saat dan setelah operasi atau trauma.' },
-  { id: 12, name: 'GLUVERA - Dextrose 5%', type: 'Infus', imageUrl: './product/dextrose5.jpeg', price: 'Rp 25.000', description: `Deskripsi Produk:
-GLUVERA® adalah larutan infus steril dan isotonik yang mengandung Dextrose 5% dalam air untuk injeksi.
-Produk ini berfungsi sebagai sumber energi glukosa, pengganti cairan tubuh yang hilang, serta untuk memelihara keseimbangan cairan dan elektrolit pada pasien yang membutuhkan terapi intravena.
+  { id: 11, name: 'Aminotran', type: 'Injeksi', imageUrl: './product/aminotran.jpeg', price: 'Rp 40.000', description: 'Aminotran® adalah larutan injeksi yang mengandung Asam Traneksamat, agen antifibrinolitik yang bekerja dengan menghambat pemecahan fibrin. Obat ini digunakan untuk mencegah dan mengobati perdarahan yang disebabkan oleh fibrinolisis berlebih, seperti pada saat dan setelah operasi atau trauma.' },
+  { id: 12, name: 'Dextrose 5%', type: 'Infus', imageUrl: './product/dextrose5.jpeg', price: 'Rp 18.000', description: `Deskripsi Produk:
+Larutan infus steril dan isotonik yang mengandung Dextrose 5% dalam air untuk injeksi.
+Produk ini berfungsi sebagai sumber energi glubingkai, pengganti cairan tubuh yang hilang, serta untuk memelihara keseimbangan cairan dan elektrolit pada pasien yang membutuhkan terapi intravena.
 Cocok digunakan dalam kondisi dehidrasi ringan, ketidakseimbangan metabolik, atau terapi nutrisi parenteral.
 
 Komposisi:
@@ -97,7 +97,7 @@ Penyimpanan:
 Simpan pada suhu 15–30°C, terlindung dari cahaya langsung dan kelembapan tinggi.
 Jangan membekukan.
 Gunakan segera setelah wadah dibuka dan buang sisa yang tidak terpakai.` },
-  { id: 13, name: 'Ringer Acetate Infus', type: 'Infus', imageUrl: './product/ringeracetate.jpeg', price: 'Rp 30.000', description: `Deskripsi Produk:
+  { id: 13, name: 'Ringer Acetate Infus', type: 'Infus', imageUrl: './product/ringeracetate.jpeg', price: 'Rp 18.000', description: `Deskripsi Produk:
 Ringer Acetate Infus adalah larutan elektrolit yang digunakan untuk menggantikan cairan tubuh dan menyeimbangkan elektrolit pada pasien yang membutuhkan terapi cairan intravena. Ringer Acetate Infus digunakan untuk memberikan rehidrasi pada pasien dan membantu menyeimbangkan kadar elektrolit tubuh.
 
 Komposisi:
@@ -124,7 +124,7 @@ Botol infus 500 ml.
 
 Penyimpanan:
 Simpan pada suhu 15-30°C, terlindung dari cahaya langsung dan kelembapan tinggi. Setelah dibuka, gunakan sesuai anjuran dokter.` },
-  { id: 14, name: 'Natrium Klorida 0.9%', type: 'Infus', imageUrl: './product/natriumklorida09.jpeg', price: 'Rp 22.000', description: `Deskripsi Produk:
+  { id: 14, name: 'Natrium Klorida 0.9%', type: 'Infus', imageUrl: './product/natriumklorida09.jpeg', price: 'Rp 10.000', description: `Deskripsi Produk:
 Larutan infus Natrium Klorida 0,9% adalah larutan isotonik yang mengandung natrium klorida dalam air untuk injeksi. Obat ini digunakan untuk menggantikan cairan tubuh yang hilang atau untuk menjaga keseimbangan elektrolit pada pasien yang memerlukan rehidrasi atau pengaturan volume cairan tubuh.
 
 Komposisi:
@@ -148,7 +148,7 @@ Botol infus 500 ml.
 
 Penyimpanan:
 Simpan pada suhu 15-30°C, terlindung dari cahaya langsung dan kelembapan tinggi. Setelah dibuka, gunakan sesuai anjuran dokter.` },
-  { id: 15, name: 'Dextrose 10%', type: 'Infus', imageUrl: './product/Dextrose10.jpeg', price: 'Rp 28.000', description: `Deskripsi Produk:
+  { id: 15, name: 'Dextrose 10%', type: 'Infus', imageUrl: './product/Dextrose10.jpeg', price: 'Rp 15.000', description: `Deskripsi Produk:
 Dextrose 10% Infus adalah larutan infus yang mengandung glukosa (dextrose) dalam konsentrasi 10%. Larutan ini digunakan untuk memberikan sumber energi yang cepat dan efisien melalui infus intravena. Dextrose 10% Infus membantu menggantikan cairan tubuh yang hilang serta memberikan glukosa yang diperlukan tubuh, terutama pada pasien yang membutuhkan kalori tambahan atau yang mengalami gangguan metabolisme energi.
 
 Komposisi:
@@ -170,14 +170,14 @@ Botol infus 500 ml.
 
 Penyimpanan:
 Simpan pada suhu 15-30°C, terlindung dari cahaya langsung dan kelembapan tinggi. Setelah dibuka, gunakan sesuai anjuran dokter.` },
-  { id: 16, name: 'Amino Acid 7.2%', type: 'Infus', imageUrl: './product/Aminoacid72.jpeg', price: 'Rp 150.000', description: 'Larutan Infus Asam Amino 7.2% adalah nutrisi parenteral yang menyediakan sumber nitrogen dalam bentuk asam amino esensial dan non-esensial. Larutan ini diindikasikan untuk pasien yang memerlukan dukungan nutrisi karena tidak dapat makan secara adekuat, seperti pada kondisi pasca-operasi berat, luka bakar, atau malnutrisi.' },
-  { id: 17, name: 'AHEPS Asam Amino 5%', type: 'Infus', imageUrl: './product/AHEPS.jpeg', price: 'Rp 135.000', description: 'AHEPS® (Amino Acid with Histidine, Electrolytes, and Polysorbate) 5% adalah larutan infus nutrisi parenteral yang diformulasikan khusus untuk pasien dengan gangguan fungsi hati. Larutan ini mengandung rasio tinggi Asam Amino Rantai Cabang (BCAA) untuk membantu memperbaiki ensefalopati hepatik.' },
-  { id: 18, name: 'Bactozin', type: 'Cream', imageUrl: './product/bactozin.jpeg', price: 'Rp 70.000', description: 'Bactozin® Krim adalah sediaan topikal dengan aksi ganda yang mengandung Miconazole Nitrate (antijamur) dan Neomycin Sulfate (antibakteri). Krim ini efektif untuk mengobati infeksi kulit campuran yang disebabkan oleh jamur dan bakteri, meredakan gejala seperti gatal, kemerahan, dan peradangan.' },
-  { id: 19, name: 'Coughrex', type: 'Syrup', imageUrl: './product/coughrex.jpeg', price: 'Rp 40.000', description: 'Sirup Coughrex® adalah obat batuk dengan formula lengkap untuk meredakan batuk berdahak dan tidak berdahak. Mengandung Guaifenesin sebagai ekspektoran, Dextromethorphan HBr sebagai antitusif, dan Chlorphenamine Maleate untuk meredakan gejala alergi.' },
-  { id: 20, name: 'Aderma', type: 'Tetes mata', imageUrl: './product/aderma.jpeg', price: 'Rp 60.000', description: 'Aderma® adalah larutan tetes mata steril yang mengandung Tobramycin 0.3%, antibiotik aminoglikosida yang efektif untuk mengobati infeksi bakteri eksternal pada mata dan adneksanya, seperti konjungtivitis. Obat ini bekerja dengan menghentikan pertumbuhan bakteri penyebab infeksi.' },
-  { id: 21, name: 'Cardioxin', type: 'Tablet', imageUrl: './product/cardioxin.jpeg', price: 'Rp 95.000', description: 'Cardioxin® adalah tablet yang mengandung Digoxin 0.25 mg, suatu glikosida jantung. Obat ini digunakan dalam pengobatan gagal jantung kongestif dan untuk mengontrol laju ventrikel pada pasien dengan fibrilasi atrium kronis. Cardioxin® bekerja dengan meningkatkan kekuatan kontraksi otot jantung.' },
-  { id: 22, name: 'Dermafix', type: 'Cream', imageUrl: './product/dermafix.jpeg', price: 'Rp 58.000', description: 'Dermafix® Krim adalah kortikosteroid topikal potensi sedang yang mengandung Desonide 0.05%. Efektif untuk meredakan manifestasi peradangan dan gatal dari dermatosis yang responsif terhadap kortikosteroid, seperti eksim dan dermatitis atopik.' },
-  { id: 23, name: 'VASARTEN', type: 'Tablet', imageUrl: './product/vasarten.jpeg', price: 'Rp 210.000', description: `Deskripsi Produk:
+  { id: 16, name: 'Amino Acid 7.2%', type: 'Infus', imageUrl: './product/Aminoacid72.jpeg', price: 'Rp 40.000', description: 'Larutan Infus Asam Amino 7.2% adalah nutrisi parenteral yang menyediakan sumber nitrogen dalam bentuk asam amino esensial dan non-esensial. Larutan ini diindikasikan untuk pasien yang memerlukan dukungan nutrisi karena tidak dapat makan secara adekuat, seperti pada kondisi pasca-operasi berat, luka bakar, atau malnutrisi.' },
+  { id: 17, name: 'AHEPS Asam Amino 5%', type: 'Infus', imageUrl: './product/AHEPS.jpeg', price: 'Rp 45.000', description: 'AHEPS® (Amino Acid with Histidine, Electrolytes, and Polysorbate) 5% adalah larutan infus nutrisi parenteral yang diformulasikan khusus untuk pasien dengan gangguan fungsi hati. Larutan ini mengandung rasio tinggi Asam Amino Rantai Cabang (BCAA) untuk membantu memperbaiki ensefalopati hepatik.' },
+  { id: 18, name: 'Bactozin', type: 'Cream', imageUrl: './product/bactozin.jpeg', price: 'Rp 25.000', description: 'Bactozin® Krim adalah sediaan topikal dengan aksi ganda yang mengandung Miconazole Nitrate (antijamur) dan Neomycin Sulfate (antibakteri). Krim ini efektif untuk mengobati infeksi kulit campuran yang disebabkan oleh jamur dan bakteri, meredakan gejala seperti gatal, kemerahan, dan peradangan.' },
+  { id: 19, name: 'Coughrex', type: 'Syrup', imageUrl: './product/coughrex.jpeg', price: 'Rp 20.000', description: 'Sirup Coughrex® adalah obat batuk dengan formula lengkap untuk meredakan batuk berdahak dan tidak berdahak. Mengandung Guaifenesin sebagai ekspektoran, Dextromethorphan HBr sebagai antitusif, dan Chlorphenamine Maleate untuk meredakan gejala alergi.' },
+  { id: 20, name: 'Aderma', type: 'Tetes mata', imageUrl: './product/aderma.jpeg', price: 'Rp 25.000', description: 'Aderma® adalah larutan tetes mata steril yang mengandung Tobramycin 0.3%, antibiotik aminoglikosida yang efektif untuk mengobati infeksi bakteri eksternal pada mata dan adneksanya, seperti konjungtivitis. Obat ini bekerja dengan menghentikan pertumbuhan bakteri penyebab infeksi.' },
+  { id: 21, name: 'Cardioxin', type: 'Tablet', imageUrl: './product/cardioxin.jpeg', price: 'Rp 32.000', description: 'Cardioxin® adalah tablet yang mengandung Digoxin 0.25 mg, suatu glikosida jantung. Obat ini digunakan dalam pengobatan gagal jantung kongestif dan untuk mengontrol laju ventrikel pada pasien dengan fibrilasi atrium kronis. Cardioxin® bekerja dengan meningkatkan kekuatan kontraksi otot jantung.' },
+  { id: 22, name: 'Dermafix', type: 'Cream', imageUrl: './product/dermafix.jpeg', price: 'Rp 25.000', description: 'Dermafix® Krim adalah kortikosteroid topikal potensi sedang yang mengandung Desonide 0.05%. Efektif untuk meredakan manifestasi peradangan dan gatal dari dermatosis yang responsif terhadap kortikosteroid, seperti eksim dan dermatitis atopik.' },
+  { id: 23, name: 'VASARTEN', type: 'Tablet', imageUrl: './product/vasarten.jpeg', price: 'Rp 40.000', description: `Deskripsi Produk:
 VASARTEN® adalah sediaan tablet yang mengandung Valsartan, yaitu obat yang digunakan untuk mengobati hipertensi (tekanan darah tinggi) dan gagal jantung.
 
 Komposisi:
@@ -200,7 +200,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 24, name: 'CLARYNE', type: 'Sirup', imageUrl: '/product/Claryne.jpeg', price: 'Rp 42.000', description: `Deskripsi Produk:
+  { id: 24, name: 'CLARYNE', type: 'Sirup', imageUrl: '/product/Claryne.jpeg', price: 'Rp 20.000', description: `Deskripsi Produk:
 CLARYNE® adalah sirup antihistamin non-sedatif yang mengandung Fexofenadine Hydrochloride 30 mg per 5 mL, digunakan untuk meredakan gejala alergi seperti bersin-bersin, hidung gatal, mata berair, dan urtikaria (biduran). Fexofenadine merupakan antihistamin generasi kedua yang bekerja cepat menghambat reseptor histamin H₁ tanpa menyebabkan kantuk, sehingga aman digunakan pada siang hari dan tidak mengganggu aktivitas.
 
 Komposisi:
@@ -224,7 +224,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 25, name: 'GENTAVEX', type: 'Ampul', imageUrl: './product/gentavex.jpeg', price: 'Rp 110.000', description: `Deskripsi Produk:
+  { id: 25, name: 'GENTAVEX', type: 'Ampul', imageUrl: './product/gentavex.jpeg', price: 'Rp 75.000', description: `Deskripsi Produk:
 GENTAVEX® adalah antibiotik injeksi steril yang mengandung Gentamicin Sulfate, suatu aminoglikosida yang bersifat bakterisidal dengan cara menghambat sintesis protein pada bakteri. Obat ini digunakan untuk mengobati berbagai infeksi berat yang disebabkan oleh bakteri gram negatif dan beberapa gram positif, seperti sepsis, infeksi saluran kemih, infeksi saluran napas bawah, infeksi intra-abdomen, serta infeksi kulit dan jaringan lunak.
 Formulasi baru GENTAVEX® dirancang dengan stabilisator dan sistem buffer isotonik, untuk meningkatkan kestabilan obat dan mengurangi risiko iritasi pada saat injeksi.
 
@@ -265,7 +265,7 @@ Jangan dibekukan
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 26, name: 'REDUX', type: 'Ampul', imageUrl: './product/tradex.jpeg', price: 'Rp 150.000', description: `Deskripsi Produk:
+  { id: 26, name: 'REDUX', type: 'Ampul', imageUrl: './product/tradex.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
 REDUX® adalah sediaan injeksi intravena yang mengandung Tranexamic Acid, obat hemostatik yang digunakan untuk mengatasi perdarahan akut dan mengurangi risiko perdarahan yang berlebihan.
 
 Komposisi:
@@ -290,7 +290,7 @@ Simpan pada suhu 15-25°C, terlindung dari cahaya dan kelembapan. Jangan dibekuk
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 27, name: 'GASTRINEX', type: 'Kapsul', imageUrl: './product/gastrinex.jpeg', price: 'Rp 85.000', description: `Deskripsi Produk:
+  { id: 27, name: 'GASTRINEX', type: 'Kapsul', imageUrl: './product/gastrinex.jpeg', price: 'Rp 33.000', description: `Deskripsi Produk:
 GASTRINEX® adalah sediaan kapsul yang mengandung Omeprazole 20 mg, obat golongan penghambat pompa proton (Proton Pump Inhibitor / PPI) yang bekerja dengan cara menghambat sekresi asam lambung secara spesifik dan efektif. Obat ini digunakan untuk mengobati tukak lambung, tukak duodenum, penyakit refluks gastroesofagus (GERD), serta mencegah kerusakan lambung akibat penggunaan jangka panjang obat antiinflamasi non-steroid (OAINS).
 
 Komposisi:
@@ -313,7 +313,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 28, name: 'AMOVEL', type: 'Kapsul', imageUrl: './product/amovel.jpeg', price: 'Rp 90.000', description: `Deskripsi Produk:
+  { id: 28, name: 'AMOVEL', type: 'Kapsul', imageUrl: './product/amovel.jpeg', price: 'Rp 25.000', description: `Deskripsi Produk:
 AMOVEL® adalah sediaan kapsul yang mengandung Amoksisilin 500 mg, antibiotik spektrum luas dari golongan penisilin semisintetik. Obat ini bekerja dengan menghambat pembentukan dinding sel bakteri, sehingga efektif untuk mengatasi berbagai infeksi bakteri pada saluran pernapasan, saluran kemih, kulit, serta jaringan lunak yang disebabkan oleh mikroorganisme sensitif terhadap amoksisilin.
 
 Komposisi:
@@ -336,7 +336,7 @@ Penyimpanan: Simpan di tempat kering, terlindung dari cahaya, dan suhu di bawah 
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 29, name: 'ZYFEK', type: 'Kapsul', imageUrl: './product/zyfex.jpeg', price: 'Rp 130.000', description: `Deskripsi Produk:
+  { id: 29, name: 'ZYFEK', type: 'Kapsul', imageUrl: './product/zyfex.jpeg', price: 'Rp 20.000', description: `Deskripsi Produk:
 ZYFEK® adalah sediaan kapsul yang mengandung Cefixime Trihydrate, antibiotik golongan sefalosporin generasi ketiga yang bekerja dengan menghambat sintesis dinding sel bakteri. Obat ini efektif dalam mengatasi berbagai infeksi bakteri, termasuk infeksi saluran pernapasan (seperti bronkitis dan pneumonia), infeksi saluran kemih, infeksi kulit, serta otitis media (radang telinga tengah).
 
 Komposisi:
@@ -364,7 +364,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 30, name: 'BRONZAL', type: 'Tablet', imageUrl: './product/bronzal.jpeg', price: 'Rp 65.000', description: `Deskripsi Produk:
+  { id: 30, name: 'BRONZAL', type: 'Tablet', imageUrl: './product/bronzal.jpeg', price: 'Rp 28.000', description: `Deskripsi Produk:
 BRONZAL® adalah sediaan tablet yang mengandung Salbutamol Sulfate 4 mg, suatu bronkodilator kerja cepat yang berfungsi untuk melegakan otot polos saluran pernapasan dan mengatasi penyempitan bronkus. Obat ini efektif digunakan untuk meredakan gejala asma bronkial, bronkitis kronis, penyakit paru obstruktif kronik (PPOK), serta gangguan pernapasan lainnya yang menyebabkan sesak atau napas berbunyi (mengi).
 
 Komposisi:
@@ -388,7 +388,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 31, name: 'Bronchonel', type: 'Sirup', imageUrl: './product/bromisin.jpeg', price: 'Rp 52.000', description: `Deskripsi Produk:
+  { id: 31, name: 'Bronchonel', type: 'Sirup', imageUrl: './product/bromisin.jpeg', price: 'Rp 23.000', description: `Deskripsi Produk:
 Bronchonel® adalah sediaan sirup yang mengandung Ambroxol Hydrochloride, suatu agen mukolitik dan sekretolitik yang bekerja dengan cara mengencerkan dan memecah mukus (dahak) di saluran pernapasan, sehingga memudahkan pengeluarannya dan membantu memperbaiki fungsi pernapasan. Obat ini efektif digunakan untuk meringankan batuk produktif akibat gangguan saluran pernapasan seperti bronkitis akut maupun kronis, pneumonia, asma bronkial, serta penyakit paru obstruktif kronik (PPOK).
 
 Komposisi:
@@ -410,7 +410,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 32, name: 'PUMO', type: 'Dry Sirup', imageUrl: './product/pumo.jpeg', price: 'Rp 88.000', description: `Deskripsi Produk:
+  { id: 32, name: 'PUMO', type: 'Dry Sirup', imageUrl: './product/pumo.jpeg', price: 'Rp 33.000', description: `Deskripsi Produk:
 PUMO® adalah sediaan suspensi yang mengandung Cotrimoxazole, yaitu kombinasi dua antibiotik, yaitu trimethoprim dan sulfamethoxazole, yang digunakan untuk mengobati berbagai infeksi bakteri. PUMO® efektif untuk mengobati infeksi saluran pernapasan, infeksi saluran kemih, dan infeksi lainnya yang disebabkan oleh bakteri yang sensitif terhadap Cotrimoxazole.
 
 Komposisi:
@@ -435,7 +435,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 33, name: 'CEXIL', type: 'Dry Sirup', imageUrl: './product/cefidex.jpeg', price: 'Rp 145.000', description: `Deskripsi Produk:
+  { id: 33, name: 'CEXIL', type: 'Dry Sirup', imageUrl: './product/cefidex.jpeg', price: 'Rp 43.000', description: `Deskripsi Produk:
 CEXIL® adalah sediaan dry syrup yang mengandung Cefixime Trihydrate, yaitu antibiotik golongan sefalosporin generasi ketiga yang digunakan untuk mengobati infeksi bakteri pada saluran pernapasan, saluran kemih, telinga, dan infeksi lainnya.
 
 Komposisi:
@@ -458,7 +458,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 34, name: 'PYRANOL', type: 'Dry Sirup', imageUrl: './product/pyranol.jpeg', price: 'Rp 30.000', description: `Deskripsi Produk:
+  { id: 34, name: 'PYRANOL', type: 'Dry Sirup', imageUrl: './product/pyranol.jpeg', price: 'Rp 24.000', description: `Deskripsi Produk:
 PYRANOL® adalah sediaan sirup yang mengandung Paracetamol, yaitu obat analgesik dan antipiretik yang digunakan untuk meredakan nyeri ringan hingga sedang dan menurunkan demam. Obat ini cocok digunakan pada anak-anak untuk mengatasi gejala demam dan nyeri, seperti sakit kepala, sakit gigi, atau nyeri otot.
 
 Komposisi:
@@ -484,7 +484,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 35, name: 'SALBRON', type: 'Dry Sirup', imageUrl: './product/salbron.jpeg', price: 'Rp 68.000', description: `Deskripsi Produk: 
+  { id: 35, name: 'SALBRON', type: 'Dry Sirup', imageUrl: './product/salbron.jpeg', price: 'Rp 26.000', description: `Deskripsi Produk: 
 SALBRON® adalah sediaan sirup yang mengandung Salbutamol, yang merupakan bronkodilator kerja cepat. Obat ini digunakan untuk melegakan saluran pernapasan yang menyempit akibat asma bronkial, bronkitis kronis, emfisema, dan kondisi paru-paru lainnya yang menyebabkan kesulitan bernapas.
 
 Komposisi: 
@@ -508,8 +508,8 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 36, name: 'Amoxidryl', type: 'Dry Sirup', imageUrl: './product/amoxidryl.jpeg', price: 'Rp 55.000', description: 'Amoxidryl® adalah sediaan sirup kering yang mengandung Amoxicillin, antibiotik spektrum luas dari golongan penisilin. Setelah dilarutkan, sirup ini digunakan untuk mengobati infeksi bakteri yang umum pada anak-anak, seperti infeksi saluran pernapasan, otitis media, dan infeksi kulit.' },
-  { id: 37, name: 'OTRAVEX', type: 'Ear Drops', imageUrl: './product/Otravex.jpeg', price: 'Rp 62.000', description: `Deskripsi Produk:
+  { id: 36, name: 'Amoxidryl', type: 'Dry Sirup', imageUrl: './product/amoxidryl.jpeg', price: 'Rp 15.000', description: 'Amoxidryl® adalah sediaan sirup kering yang mengandung Amoxicillin, antibiotik spektrum luas dari golongan penisilin. Setelah dilarutkan, sirup ini digunakan untuk mengobati infeksi bakteri yang umum pada anak-anak, seperti infeksi saluran pernapasan, otitis media, dan infeksi kulit.' },
+  { id: 37, name: 'OTRAVEX', type: 'Ear Drops', imageUrl: './product/Otravex.jpeg', price: 'Rp 35.000', description: `Deskripsi Produk:
 OTRAVEX® adalah tetes telinga steril yang mengandung Ciprofloxacin, antibiotik dari golongan fluoroquinolone yang bekerja dengan cara menghambat pertumbuhan bakteri penyebab infeksi telinga. OTRAVEX® digunakan untuk mengobati otitis eksternalis (infeksi telinga luar) dan otitis media (infeksi telinga tengah), terutama yang disebabkan oleh bakteri seperti Pseudomonas aeruginosa dan Staphylococcus aureus.
 
 Komposisi:
@@ -541,7 +541,7 @@ Simpan pada suhu 15–25°C, terlindung dari cahaya dan kelembapan. Setelah dibu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 38, name: 'OTRINOL', type: 'Ear Drops', imageUrl: './product/Otrinol1.jpeg', price: 'Rp 70.000', description: `Deskripsi Produk:
+  { id: 38, name: 'OTRINOL', type: 'Ear Drops', imageUrl: './product/Otrinol1.jpeg', price: 'Rp 40.000', description: `Deskripsi Produk:
 OTRINOL® adalah tetes telinga yang mengandung Neomycin Sulfate 0.5%, antibiotik golongan aminoglikosida yang bekerja dengan menghambat sintesis protein bakteri. OTRINOL® digunakan untuk mengobati infeksi telinga luar (otitis eksternalis) dan infeksi telinga tengah akibat bakteri yang sensitif terhadap Neomycin. Obat ini membantu meredakan gejala seperti nyeri, gatal, dan keluarnya cairan dari telinga akibat infeksi.
 
 Komposisi:
@@ -569,7 +569,7 @@ Simpan pada suhu 15–25°C, terlindung dari cahaya langsung. Setelah dibuka, gu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 39, name: 'DULCYN', type: 'Suppositoria', imageUrl: './product/dulcyn.jpeg', price: 'Rp 25.000', description: `Deskripsi Produk:
+  { id: 39, name: 'DULCYN', type: 'Suppositoria', imageUrl: './product/dulcyn.jpeg', price: 'Rp 33.000', description: `Deskripsi Produk:
 DULCYN® adalah suppositoria yang mengandung Sodium Picosulfate 10 mg, obat pencahar (laksatif) yang bekerja dengan merangsang pergerakan usus besar dan meningkatkan pengeluaran feses. DULCYN® digunakan untuk mengatasi konstipasi (sembelit) jangka pendek dan dapat digunakan sebagai persiapan sebelum prosedur medis yang memerlukan pengosongan usus.
 
 Komposisi:
@@ -598,7 +598,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 40, name: 'FEPROL', type: 'Suppositoria', imageUrl: './product/feprol.jpeg', price: 'Rp 30.000', description: `Deskripsi Produk:
+  { id: 40, name: 'FEPROL', type: 'Suppositoria', imageUrl: './product/feprol.jpeg', price: 'Rp 28.000', description: `Deskripsi Produk:
 FEPROL® adalah suppositoria yang mengandung Ibuprofen 125 mg, obat antiinflamasi nonsteroid (AINS) yang digunakan untuk menurunkan demam dan meredakan nyeri ringan hingga sedang pada anak-anak, seperti nyeri gigi, sakit kepala, atau nyeri akibat tumbuh gigi. Bentuk suppositoria memudahkan pemberian pada anak-anak yang sulit menelan obat dalam bentuk oral.
 
 Komposisi:
@@ -625,7 +625,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 41, name: 'CEFORIN', type: 'Kaplet', imageUrl: '/product/ceforin.jpeg', price: 'Rp 220.000', description: `Deskripsi Produk:
+  { id: 41, name: 'CEFORIN', type: 'Kaplet', imageUrl: '/product/ceforin.jpeg', price: 'Rp 32.000', description: `Deskripsi Produk:
 CEFORIN® adalah film-coated caplet yang mengandung Cefpodoxime Proxetil 200 mg, antibiotik golongan sefalosporin generasi ketiga yang aktif terhadap berbagai bakteri Gram positif maupun Gram negatif. Obat ini digunakan untuk mengobati berbagai infeksi bakteri seperti infeksi saluran pernapasan atas dan bawah, infeksi saluran kemih, infeksi kulit dan jaringan lunak, serta infeksi telinga (otitis media). Cefpodoxime bekerja dengan cara menghambat sintesis dinding sel bakteri, sehingga menyebabkan lisis dan kematian sel bakteri.
 
 Komposisi:
@@ -648,7 +648,7 @@ Simpan obat pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari 
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 42, name: 'PYRAVIN', type: 'Kaplet', imageUrl: './product/Pyravin.jpeg', price: 'Rp 15.000', description: `Deskripsi Produk:
+  { id: 42, name: 'PYRAVIN', type: 'Kaplet', imageUrl: './product/Pyravin.jpeg', price: 'Rp 35.000', description: `Deskripsi Produk:
 PYRAVIN® adalah sediaan kaplet yang mengandung Paracetamol 500 mg, berfungsi sebagai analgesik (pereda nyeri) dan antipiretik (penurun demam). Obat ini efektif untuk meredakan sakit kepala, nyeri otot, sakit gigi, demam, serta keluhan akibat flu dan pilek. Dengan formulasi yang aman, PYRAVIN® dapat digunakan oleh dewasa maupun anak-anak di atas 6 tahun.
 
 Komposisi:
@@ -672,7 +672,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat kering dan terlindung da
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 43, name: 'GLUMETA', type: 'Kaplet Blister', imageUrl: './product/Glumeta.jpeg', price: 'Rp 190.000', description: `Deskripsi Produk:
+  { id: 43, name: 'GLUMETA', type: 'Kaplet Blister', imageUrl: './product/Glumeta.jpeg', price: 'Rp 35.000', description: `Deskripsi Produk:
 GLUMETA® adalah film-coated caplet yang mengandung kombinasi Glimepiride dan Metformin HCl, dua agen antidiabetes oral yang bekerja secara sinergis untuk membantu mengontrol kadar glukosa darah pada pasien diabetes melitus tipe 2. Kombinasi ini efektif digunakan pada pasien yang tidak dapat dikontrol hanya dengan diet, olahraga, atau monoterapi.
 
 Komposisi:
@@ -700,7 +700,7 @@ Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahay
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 44, name: 'CARDISIM', type: 'Kaplet', imageUrl: './product/cardisim.jpeg', price: 'Rp 175.000', description: `Deskripsi Produk:
+  { id: 44, name: 'CARDISIM', type: 'Kaplet', imageUrl: './product/cardisim.jpeg', price: 'Rp 30.000', description: `Deskripsi Produk:
 CARDISIM® adalah sediaan film-coated caplet yang mengandung Simvastatin 10 mg, obat dari golongan statin yang berfungsi menurunkan kadar kolesterol total, LDL (kolesterol jahat), dan trigliserida, serta meningkatkan kadar HDL (kolesterol baik) dalam darah. Penggunaan rutin CARDISIM® membantu mengurangi risiko penyakit jantung koroner, stroke, dan gangguan kardiovaskular akibat kadar lipid yang tinggi.
 
 Komposisi:
@@ -723,7 +723,7 @@ Penyimpanan: Simpan di tempat kering dan terlindung dari cahaya pada suhu di baw
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 45, name: 'FOLIRON', type: 'Tablet kunyah', imageUrl: './product/foliron.jpeg', price: 'Rp 40.000', description: `Deskripsi Produk:
+  { id: 45, name: 'FOLIRON', type: 'Tablet kunyah', imageUrl: './product/foliron.jpeg', price: 'Rp 120.000', description: `Deskripsi Produk:
 FOLIRON® adalah tablet kunyah yang mengandung kombinasi Iron Polymaltose Complex dan Asam Folat (Folic Acid). Suplemen ini berfungsi untuk mencegah dan mengatasi anemia defisiensi besi, terutama pada wanita hamil, ibu menyusui, remaja, serta pasien dengan kebutuhan zat besi yang meningkat. Kandungan asam folat dalam FOLIRON® membantu pembentukan sel darah merah yang sehat dan mendukung perkembangan janin selama kehamilan.
 
 Komposisi:
@@ -745,7 +745,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindu
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 46, name: 'CITRAVIT', type: 'Suplemen Effervescent', imageUrl: './product/citravit.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
+  { id: 46, name: 'CITRAVIT', type: 'Suplemen Effervescent', imageUrl: './product/citravit.jpeg', price: 'Rp 65.000', description: `Deskripsi Produk:
 CITRAVIT® adalah tablet effervescent yang mengandung Vitamin C 1000 mg dan Zinc 10 mg, diformulasikan khusus untuk membantu meningkatkan daya tahan tubuh, mempercepat proses penyembuhan, serta melindungi sel-sel tubuh dari kerusakan akibat radikal bebas. Kombinasi Vitamin C dan Zinc membantu menjaga kesehatan kulit, memperkuat sistem imun, dan meningkatkan penyerapan zat besi.
 
 Komposisi:
@@ -774,7 +774,7 @@ Simpan di tempat kering dan sejuk, dengan tutup rapat, serta terlindung dari sin
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 47, name: 'LYSERIN', type: 'Effervescent Tablet', imageUrl: './product/lyserin.jpeg', price: 'Rp 38.000', description: `Deskripsi Produk:
+  { id: 47, name: 'LYSERIN', type: 'Effervescent Tablet', imageUrl: './product/lyserin.jpeg', price: 'Rp 18.000', description: `Deskripsi Produk:
 LYSERIN® adalah tablet effervescent yang mengandung Acetylsalicylic Acid 300 mg, diformulasikan untuk membantu meredakan nyeri ringan hingga sedang seperti sakit kepala, nyeri otot, nyeri haid, sakit gigi, dan nyeri akibat peradangan. Dengan bentuk effervescent yang mudah larut dalam air, LYSERIN® memberikan efek cepat, rasa segar, serta kenyamanan saat dikonsumsi.
 
 Komposisi:
@@ -803,7 +803,7 @@ Simpan di tempat kering dan sejuk, dengan tutup rapat, serta terlindung dari sin
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 48, name: 'ImunoCee+', type: 'Blister', imageUrl: './product/ImunoCee.jpeg', price: 'Rp 60.000', description: `Deskripsi Produk:
+  { id: 48, name: 'ImunoCee+', type: 'Blister', imageUrl: './product/ImunoCee.jpeg', price: 'Rp 45.000', description: `Deskripsi Produk:
 ImunoCee+® adalah tablet kunyah dengan kombinasi Vitamin C, Vitamin E, dan Zinc yang berperan sebagai antioksidan untuk membantu memelihara daya tahan tubuh serta melindungi sel dari kerusakan akibat radikal bebas.
 
 Komposisi:
@@ -831,7 +831,7 @@ Simpan di tempat kering, suhu di bawah 30°C, terlindung dari cahaya dan kelemba
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 49, name: 'GastroMint Chew', type: 'Blister', imageUrl: './product/gastromintchew.jpeg', price: 'Rp 28.000', description: `Deskripsi Produk:
+  { id: 49, name: 'GastroMint Chew', type: 'Blister', imageUrl: './product/gastromintchew.jpeg', price: 'Rp 35.000', description: `Deskripsi Produk:
 GastroMint Chew® adalah tablet kunyah herbal yang mengandung ekstrak jahe, peppermint, dan inulin. Kombinasi ini membantu mengurangi rasa kembung, mual ringan, serta mendukung kesehatan pencernaan.
 
 Komposisi:
@@ -859,30 +859,9 @@ Simpan di tempat sejuk, kering, suhu di bawah 30°C, terlindung dari cahaya.
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 50, name: 'RAVIL', type: 'Blister', imageUrl: './product/vasoten.jpeg', price: 'Rp 230.000', description: `Deskripsi Produk:
-RAVIL® adalah sediaan tablet yang mengandung Valsartan, yaitu obat yang digunakan untuk mengobati hipertensi (tekanan darah tinggi) dan gagal jantung.
-
-Komposisi:
-Setiap tablet RAVIL® mengandung 80 mg Valsartan.
-
-Dosis dan Cara Pemakaian:
-Dosis harus disesuaikan dengan kondisi klinis pasien dan anjuran dokter.
-
-Golongan: Obat Keras (memerlukan resep dokter)
-
-Perhatian dan Peringatan:
-Hati-hati pada pasien dengan gangguan fungsi hati atau ginjal.
-Penggunaan pada wanita hamil dan menyusui harus dilakukan dengan hati-hati, dan hanya jika dianggap sangat perlu oleh dokter.
-
-Kemasan:
-1 Strip x 10 Tablet
-
-Penyimpanan:
-Simpan pada suhu di bawah 30°C, di tempat yang kering dan terlindung dari cahaya.
-
-Diproduksi oleh:
-PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 51, name: 'ASPYLIN', type: 'Tablet', imageUrl: './product/aspylin.jpeg', price: 'Rp 20.000', description: `Deskripsi Produk:
+  { id: 50, name: 'Vasoten', type: 'Blister', imageUrl: './product/vasoten.jpeg', price: 'Rp 21.000', description: `Deskripsi Produk:
+Vasoten adalah merek dagang obat yang mengandung bahan aktif bisoprolol fumarat. Obat ini termasuk dalam golongan beta-blocker kardioselektif yang digunakan untuk mengobati kondisi yang berhubungan dengan sistem kardiovaskular. ` },
+  { id: 51, name: 'ASPYLIN', type: 'Tablet', imageUrl: './product/aspylin.jpeg', price: 'Rp 19.000', description: `Deskripsi Produk:
 ASPYLIN® adalah sediaan tablet yang mengandung Acetylsalicylic Acid 500 mg, digunakan untuk meredakan nyeri ringan hingga sedang seperti sakit kepala, nyeri otot, nyeri haid, serta menurunkan demam. ASPYLIN® bekerja dengan cara menghambat enzim siklooksigenase (COX), yang berperan dalam pembentukan prostaglandin — senyawa penyebab nyeri, peradangan, dan demam. Selain itu, ASPYLIN® juga bermanfaat dalam mencegah penggumpalan darah (antiplatelet) bila digunakan dalam dosis rendah.
 
 Komposisi:
@@ -902,7 +881,7 @@ Penyimpanan: Simpan pada suhu di bawah 30°C, di tempat kering dan terlindung da
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 52, name: 'GLUVERA', type: 'Insulin', imageUrl: './product/gluvera.jpeg', price: 'Rp 280.000', description: `Deskripsi Produk:
+  { id: 52, name: 'GLUVERA', type: 'Insulin', imageUrl: './product/gluvera.jpeg', price: 'Rp 150.000', description: `Deskripsi Produk:
 GLUVERA® adalah larutan injeksi steril yang mengandung Insulin Aspart 100 IU/mL, suatu insulin kerja cepat (rapid-acting insulin analogue) yang digunakan untuk mengontrol kadar glukosa darah pada pasien dengan diabetes melitus tipe 1 maupun tipe 2.
 Formulasi GLUVERA® dirancang untuk memberikan awal kerja cepat, puncak efek optimal, dan durasi kerja singkat, sehingga dapat meniru respons fisiologis insulin alami tubuh setelah makan.
 
@@ -943,7 +922,7 @@ Lindungi dari panas berlebih dan sinar matahari langsung.
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 53, name: 'INSULYNEX', type: 'Insulin', imageUrl: './product/insulynex.jpeg', price: 'Rp 295.000', description: `Deskripsi Produk:
+  { id: 53, name: 'INSULYNEX', type: 'Insulin', imageUrl: './product/insulynex.jpeg', price: 'Rp 170.000', description: `Deskripsi Produk:
 INSULYNEX® adalah larutan injeksi steril yang mengandung insulin aspart 100 IU/mL, yaitu insulin kerja cepat (rapid-acting insulin) yang digunakan untuk mengontrol kadar glukosa darah pada pasien dengan diabetes melitus tipe 1 maupun tipe 2. Insulin ini bekerja cepat menurunkan kadar glukosa darah setelah penyuntikan dan biasanya digunakan bersama insulin kerja menengah atau panjang untuk mencapai kontrol glukosa yang optimal.
 
 Komposisi:
@@ -966,7 +945,7 @@ Penyimpanan dilakukan pada suhu 2–8°C di dalam lemari pendingin dan tidak bol
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 54, name: 'PHELNA', type: 'Salep Mata', imageUrl: './product/phelnasalep.jpeg', price: 'Rp 45.000', description: `Deskripsi Produk:
+  { id: 54, name: 'PHELNA', type: 'Salep Mata', imageUrl: './product/phelnasalep.jpeg', price: 'Rp 26.000', description: `Deskripsi Produk:
 PHELNA® Chloramphenicol Sterile Eye Ointment adalah salep mata yang mengandung chloramphenicol. Obat ini digunakan untuk mengobati infeksi mata yang disebabkan oleh bakteri, termasuk konjungtivitis (radang selaput mata), blefaritis (radang kelopak mata), dan infeksi mata lainnya.
 
 Komposisi:
@@ -986,7 +965,7 @@ Tube 3,5 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-25°C), terlindung dari cahaya dan kelembapan. Jangan gunakan setelah tanggal kedaluwarsa yang tertera pada kemasan.` },
-  { id: 55, name: 'FATAN', type: 'Salep Mata', imageUrl: './product/Gentasol01salep.jpeg', price: 'Rp 50.000', description: `Deskripsi Produk:
+  { id: 55, name: 'FATAN', type: 'Salep Mata', imageUrl: './product/Gentasol01salep.jpeg', price: 'Rp 22.000', description: `Deskripsi Produk:
 FATAN® Gentamicin Sulfate 0,1% Ointment adalah salep antibiotik topikal yang mengandung gentamicin sulfate, yaitu antibiotik aminoglikosida yang efektif dalam mengobati infeksi kulit yang disebabkan oleh bakteri. Salep ini digunakan untuk mengobati infeksi kulit seperti impetigo, infeksi luka, dan infeksi kulit lainnya yang disebabkan oleh bakteri sensitif terhadap gentamicin.
 
 Komposisi:
@@ -1006,7 +985,7 @@ Tube 15 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-30°C), terlindung dari cahaya dan kelembapan.` },
-  { id: 56, name: 'OPTACYCLIN', type: 'Salep Mata', imageUrl: './product/optacylin.jpeg', price: 'Rp 48.000', description: `Deskripsi Produk:
+  { id: 56, name: 'OPTACYCLIN', type: 'Salep Mata', imageUrl: './product/optacylin.jpeg', price: 'Rp 25.000', description: `Deskripsi Produk:
 OPTACYCLIN® Oxytetracycline HCl 1% Sterile Eye Ointment adalah salep mata antibiotik yang mengandung oxytetracycline. Obat ini digunakan untuk mengobati infeksi mata yang disebabkan oleh bakteri, termasuk konjungtivitis (radang selaput mata) dan infeksi mata lainnya.
 
 Komposisi:
@@ -1026,7 +1005,7 @@ Tube 3,5 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-25°C), terlindung dari cahaya dan kelembapan. Jangan gunakan setelah tanggal kedaluwarsa yang tertera pada kemasan.` },
-  { id: 57, name: 'BUFUS', type: 'Cream', imageUrl: './product/skinfussalepcream.jpeg', price: 'Rp 75.000', description: `Deskripsi Produk: 
+  { id: 57, name: 'BUFUS', type: 'Cream', imageUrl: './product/skinfussalepcream.jpeg', price: 'Rp 45.000', description: `Deskripsi Produk: 
 BUFUS® adalah krim topikal yang mengandung Fusidic Acid 2%, antibiotik yang efektif untuk mengobati infeksi kulit yang disebabkan oleh bakteri, terutama Staphylococcus aureus.
 
 Komposisi: 
@@ -1048,7 +1027,7 @@ Penyimpanan: Simpan di tempat sejuk dan kering, jauhkan dari paparan sinar matah
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 58, name: 'KETODERM', type: 'Cream', imageUrl: './product/ketodermsalep2.jpeg', price: 'Rp 65.000', description: `Deskripsi Produk:
+  { id: 58, name: 'KETODERM', type: 'Cream', imageUrl: './product/ketodermsalep2.jpeg', price: 'Rp 17.000', description: `Deskripsi Produk:
 KETODERM® Ketoconazole Krim 2% adalah obat antijamur topikal yang digunakan untuk mengobati berbagai infeksi jamur pada kulit. KETODERM® efektif digunakan untuk mengobati infeksi jamur yang terjadi di area kulit yang terkena, seperti pada penderita infeksi dermatofitosis, kandidiasis, dan tinea.
 
 Komposisi:
@@ -1068,7 +1047,7 @@ Tube krim 15 g.
 
 Penyimpanan:
 Simpan pada suhu kamar (15-30°C), terlindung dari cahaya dan kelembapan.` },
-  { id: 59, name: 'ALBUVEX', type: 'Infus Albumin', imageUrl: './product/albuvex.jpeg', price: 'Rp 950.000', description: `Deskripsi Produk:
+  { id: 59, name: 'ALBUVEX', type: 'Infus Albumin', imageUrl: './product/albuvex.jpeg', price: 'Rp 890.000', description: `Deskripsi Produk:
 ALBUVEX® adalah larutan infus steril yang mengandung Human Albumin 20%. Obat ini digunakan untuk menggantikan dan mempertahankan volume plasma pada kondisi medis seperti hipovolemia (penurunan volume darah), luka bakar berat, sindrom nefrotik, dan hipoalbuminemia akibat gangguan hati atau ginjal. Human albumin berperan penting dalam menjaga tekanan onkotik plasma dan mengatur keseimbangan cairan tubuh.
 
 Komposisi:
@@ -1100,6 +1079,6 @@ Simpan pada suhu 2–25°C, terlindung dari cahaya langsung. Jangan dibekukan. S
 
 Diproduksi oleh:
 PT Candrelia Farma, Palembang – Indonesia` },
-  { id: 60, name: 'PLASBUMIN', type: 'Infus Albumin', imageUrl: './product/plasbumin.jpeg', price: 'Rp 880.000', description: 'PLASBUMIN® adalah larutan infus steril Human Albumin 25% yang sangat murni. Larutan hiperonkotik ini digunakan untuk ekspansi volume plasma dan pemeliharaan curah jantung pada kondisi kritis seperti syok hipovolemik, luka bakar luas, dan hipoalbuminemia berat. PLASBUMIN® bekerja dengan menarik cairan dari ruang interstisial ke dalam sirkulasi.' },
+  { id: 60, name: 'PLASBUMIN', type: 'Infus Albumin', imageUrl: './product/plasbumin.jpeg', price: 'Rp 650.000', description: 'PLASBUMIN® adalah larutan infus steril Human Albumin 25% yang sangat murni. Larutan hiperonkotik ini digunakan untuk ekspansi volume plasma dan pemeliharaan curah jantung pada kondisi kritis seperti syok hipovolemik, luka bakar luas, dan hipoalbuminemia berat. PLASBUMIN® bekerja dengan menarik cairan dari ruang interstisial ke dalam sirkulasi.' },
   // { id: 61, name: 'NABUL', type: 'Infus Albumin', imageUrl: './product/nabul.jpeg', price: 'Rp 900.000', description: 'NABUL® adalah larutan infus yang mengandung Human Albumin 20%, berfungsi untuk mempertahankan volume darah dan tekanan osmotik, serta mengikat dan mengangkut zat-zat penting dalam darah. NABUL® digunakan untuk mengobati atau mencegah defisiensi albumin, seperti pada kondisi kehilangan darah yang parah, luka bakar, sindrom nefrotik, atau kondisi medis lain yang memerlukan penggantian volume plasma darah.' },
 ];

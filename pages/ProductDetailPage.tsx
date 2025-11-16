@@ -9,7 +9,7 @@ const ProductDetailPage: React.FC = () => {
     if (!product) {
         return (
             <div className="text-center py-20">
-                <h1 className="text-3xl font-bold text-gray-800">Produk Tidak Ditemukan</h1>
+                <h1 className="text-3xl font-bold text-white-800">Produk Tidak Ditemukan</h1>
                 <p className="text-gray-600 mt-4">Maaf, kami tidak dapat menemukan produk yang Anda cari.</p>
                 <Link to="/products" className="mt-8 inline-block bg-teal-600 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-700 transition-all">
                     Kembali ke Semua Produk

@@ -29,7 +29,7 @@ const ProductDetailPage: React.FC = () => {
                 </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-                <div className="w-full rounded-lg shadow-md overflow-hidden bg-gray-50 flex items-center justify-center p-4">
+                <div className="w-full rounded-lg shadow-md overflow-hidden bg-white-50 flex items-center justify-center p-4">
                     <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full object-contain" />
                 </div>
                 <div>

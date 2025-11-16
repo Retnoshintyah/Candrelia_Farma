@@ -19,7 +19,7 @@ const ProductDetailPage: React.FC = () => {
     }
 
     const whatsappMessage = `Halo, saya ingin bertanya tentang produk ${product.name}.`;
-    const whatsappUrl = `https://wa.me/6282289942035?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/6281271894905?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
         <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
@@ -29,7 +29,7 @@ const ProductDetailPage: React.FC = () => {
                 </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-                <div className="w-full rounded-lg shadow-md overflow-hidden bg-gray-50 flex items-center justify-center aspect-square p-4">
+                <div className="w-full rounded-lg shadow-md overflow-hidden bg-gray-50 flex items-center justify-center p-4">
                     <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full object-contain" />
                 </div>
                 <div>

@@ -89,7 +89,7 @@ const ProfilePage: React.FC = () => {
                 <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-teal-500 pb-2 mb-6">Lokasi Kami</h2>
                 <div className="bg-white p-6 rounded-lg shadow-md">
                     <iframe
-                        src="ghttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.523058094267!2d104.72367827551719!3d-2.9522480970239564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b7595faafaedb%3A0x70077b3f734e38df!2sINSTALASI%20FARMASI%20PROVINSI%20SUMATRA%20SELATAN!5e0!3m2!1sid!2sid!4v1763953961807!5m2!1sid!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.523058094267!2d104.72367827551719!3d-2.9522480970239564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b7595faafaedb%3A0x70077b3f734e38df!2sINSTALASI%20FARMASI%20PROVINSI%20SUMATRA%20SELATAN!5e0!3m2!1sid!2sid!4v1763953961807!5m2!1sid!2sid"
                         width="100%"
                         height="450"
                         style={{ border: 0 }}

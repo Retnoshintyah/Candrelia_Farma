@@ -84,6 +84,21 @@ const ProfilePage: React.FC = () => {
                    <p className="text-gray-600 leading-relaxed">{qmsSummary}</p>
                 </div>
             </section> */}
+
+            <section>
+                 
+                <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-teal-500 pb-2 mb-6">Lokasi Kami</h2>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509123!2d144.9537353153164!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11f5b7%3A0x5045675218ceed0!2sYour%20Location!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
+                        width="100%"
+                        height="450"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
+                    ></iframe>
+                </div>
+            </section>
         </div>
     );
 };

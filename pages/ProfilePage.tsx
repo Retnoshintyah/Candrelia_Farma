@@ -22,15 +22,9 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
 const ProfilePage: React.FC = () => {
     return (
         <div className="space-y-12">
-            <h1 className="text-4xl font-bold text-gray-800 text-center">Tentang Candrelia Farma</h1>
-
-            {/* History Section */}
             <section>
-                <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-teal-500 pb-2 mb-6">Sejarah Kami</h2>
-                <div className="space-y-4 text-gray-600 leading-relaxed">
-                    {history.map((paragraph, index) => (
-                        <p key={index}>{paragraph}</p>
-                    ))}
+                <div className="bg-white p-6 rounded-lg flex justify-center">
+                    <img src="./fotokantor.jpeg" alt="Gambar Perusahaan Candrelia Farma" className="rounded-lg shadow-lg w-full h-[450px]" />
                 </div>
             </section>
             
@@ -84,6 +78,24 @@ const ProfilePage: React.FC = () => {
                    <p className="text-gray-600 leading-relaxed">{qmsSummary}</p>
                 </div>
             </section> */}
+
+       
+                {/* Company Video Section */}
+                <section>
+                    <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-teal-500 pb-2 mb-6">Video Perusahaan</h2>
+                    <div className="bg-white p-6 rounded-lg shadow-md flex justify-center">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/ecQv83xMj0c?si=-9yN6A1KXFjFHYT-"
+                            title="Video Perusahaan"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
+            
 
             <section>
                 <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-teal-500 pb-2 mb-6">Lokasi Kami</h2>

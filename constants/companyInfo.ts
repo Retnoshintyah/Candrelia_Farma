@@ -22,7 +22,7 @@ export const history = [
 export const organization: Organization = {
     leadership: [
         { role: 'CEO', name: 'Apt. Najma Annuria., S.Farm., M.Sc., ph. D.' },
-        { role: 'Direktur Utama', name: 'Apt. Candani., M.farm., Ph. D.' },
+        { role: 'Direktur Utama', name: 'Apt. Candini., M.farm., Ph. D.' },
         { role: 'Sekretaris Perusahaan', name: 'Apt. Aurelia Cahya Hazety., M. Farm., Ph. D.' }
     ],
     cSuite: [
